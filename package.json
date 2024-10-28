@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress open",
+    "cypress:run": "npx cypress run",
+    "cypress:chrome": "npx cypress run --browser chrome",
+    "cypress:firefox": "npx cypress run --browser firefox",
+    "cypress:edge": "npx cypress run --browser edge",
+    "cypress:electron": "npx cypress run --browser electron"
+
   },
   "keywords": [],
   "author": "",
